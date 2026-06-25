@@ -304,3 +304,41 @@ Profile Image
 .right img:hover{
     transform:translateY(-8px);
 }
+/* ==========================================
+   Hero Button Upgrade
+========================================== */
+
+.buttons a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:180px;
+    height:55px;
+    border-radius:12px;
+    font-size:16px;
+    font-weight:600;
+    transition:all .35s ease;
+}
+
+.buttons a:first-child{
+    background:#2563EB;
+    color:#fff;
+    box-shadow:0 10px 25px rgba(37,99,235,.25);
+}
+
+.buttons a:first-child:hover{
+    transform:translateY(-4px);
+    box-shadow:0 18px 35px rgba(37,99,235,.35);
+}
+
+.buttons a:last-child{
+    background:#fff;
+    color:#2563EB;
+    border:2px solid #2563EB;
+}
+
+.buttons a:last-child:hover{
+    background:#2563EB;
+    color:#fff;
+    transform:translateY(-4px);
+}

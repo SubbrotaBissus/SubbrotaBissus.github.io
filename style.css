@@ -225,3 +225,44 @@ Profile Image
     box-shadow:0 20px 40px rgba(37,99,235,.25);
 
 }
+/* =================================
+   Hero Section Enhancement
+================================= */
+
+.hero{
+    background: linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 100%);
+}
+
+.left h1{
+    color:#0F172A;
+    font-weight:800;
+}
+
+.left h2{
+    color:#2563EB;
+    font-weight:600;
+}
+
+.buttons a:first-child{
+    background:#2563EB;
+    color:#fff;
+}
+
+.buttons a:last-child{
+    background:#fff;
+    color:#2563EB;
+    border:2px solid #2563EB;
+}
+
+.buttons a:last-child:hover{
+    background:#2563EB;
+    color:#fff;
+}
+
+.right img{
+    transition:0.4s ease;
+}
+
+.right img:hover{
+    transform:translateY(-8px);
+}

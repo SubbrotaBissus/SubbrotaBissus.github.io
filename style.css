@@ -626,3 +626,35 @@ body{
     width:100%;
 
 }
+/* ===========================
+ABOUT PAGE
+=========================== */
+
+.about-page{
+
+padding:120px 8%;
+min-height:100vh;
+
+}
+
+.about-page h1{
+
+font-size:48px;
+
+margin-bottom:20px;
+
+color:#0f172a;
+
+}
+
+.about-subtitle{
+
+font-size:20px;
+
+line-height:1.8;
+
+color:#555;
+
+max-width:900px;
+
+}

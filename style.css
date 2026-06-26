@@ -226,7 +226,7 @@ ul{
 
     gap:80px;
 
-    padding:140px 8% 80px;
+    padding:110px 8% 70px;
 
     position:relative;
 
@@ -287,6 +287,8 @@ ul{
     position:relative;
 
     z-index:2;
+
+   max-width:600px;
 
 }
 
@@ -370,9 +372,9 @@ ul{
 
 .hero-image img{
 
-    width:400px;
+    width:360px;
 
-    height:400px;
+    height:360px;
 
     object-fit:cover;
 

@@ -658,3 +658,118 @@ color:#555;
 max-width:900px;
 
 }
+/*=========================
+ABOUT GRID
+=========================*/
+
+.about-grid{
+
+display:flex;
+
+gap:60px;
+
+align-items:center;
+
+margin-top:60px;
+
+flex-wrap:wrap;
+
+}
+
+.about-image img{
+
+width:300px;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+.about-info{
+
+flex:1;
+
+}
+
+.about-info h2{
+
+margin-bottom:20px;
+
+font-size:32px;
+
+}
+
+.about-info p{
+
+margin:15px 0;
+
+font-size:18px;
+
+line-height:1.7;
+
+}
+
+.career-objective{
+
+margin-top:80px;
+
+}
+
+.career-objective h2{
+
+margin-bottom:20px;
+
+font-size:34px;
+
+}
+
+.career-objective p{
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#555;
+
+}
+
+.highlight-section{
+
+margin-top:80px;
+
+}
+
+.highlight-grid{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:20px;
+
+margin-top:30px;
+
+}
+
+.highlight-grid div{
+
+background:white;
+
+padding:20px;
+
+border-radius:12px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+font-weight:600;
+
+transition:.3s;
+
+}
+
+.highlight-grid div:hover{
+
+transform:translateY(-6px);
+
+}

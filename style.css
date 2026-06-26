@@ -844,3 +844,32 @@ ul{
     }
 
 }
+/* ==========================================
+   MOBILE BUTTON POLISH
+========================================== */
+
+@media (max-width:768px){
+
+    .buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:15px;
+
+        margin-top:25px;
+
+    }
+
+    .buttons a{
+
+        width:100%;
+
+        max-width:280px;
+
+        min-width:auto;
+
+    }
+
+}
